@@ -1,6 +1,6 @@
 {
   "name": "simple-modal-react-dela",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "Simple modal",
   "author": "Stéphane CHAFFRE",
   "license": "MIT",
@@ -24,25 +24,14 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "microbundle-crl": "^0.13.10",
-    "babel-eslint": "^10.0.3",
-    "cross-env": "^7.0.2",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-config-standard-react": "^9.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-standard": "^4.0.1",
-    "gh-pages": "^2.2.0",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^2.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "babel-preset-react-app": "^10.0.1",
+    "@babel/preset-react": "^7.18.6"
   },
   "files": [
     "dist"
