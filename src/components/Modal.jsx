@@ -1,5 +1,5 @@
 import React from "react"
-import "./modal.css"
+import "../modal.css"
 
 /**
  * Change the class of the modal if click on the button that you choose to display it
