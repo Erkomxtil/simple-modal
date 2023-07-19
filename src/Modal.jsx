@@ -1,5 +1,4 @@
 import React from "react"
-import closeBtn from "./assets/close.png"
 import "./modal.css"
 
 /**
@@ -12,7 +11,7 @@ function Modal({ active, setActive, text }) {
     <div className={`${active} modalWrapper`}>
       <p>
         {text}
-        <img src={closeBtn} alt="Close button" onClick={() => setActive("")} />
+        <span onClick={() => setActive("")}>X</span>
       </p>
     </div>
   )
