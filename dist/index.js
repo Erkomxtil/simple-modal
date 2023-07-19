@@ -1,4 +1,6 @@
-export default function Modal({ active, setActive, text }) {  
+import React from 'react';
+
+function Modal({ active, setActive, text }) {
   return (
     <div className={active}>
       <p>
@@ -6,5 +8,7 @@ export default function Modal({ active, setActive, text }) {
         <span onClick={() => setActive("")}>X</span>
       </p>
     </div>
-  )
+  );
 }
+
+export default Modal;
