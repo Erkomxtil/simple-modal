@@ -1,7 +1,7 @@
 {
   "name": "simple-modal-react-dela",
   "description": "modal open and close with cutomization with button ",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "author": "Stéphane CHAFFRE",
   "license": "MIT",
