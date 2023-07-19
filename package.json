@@ -1,24 +1,55 @@
 {
   "name": "simple-modal-react-dela",
-  "version": "1.0.2",
-  "description": "react-modal",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "modal open and close with cutomization with button ",
+  "version": "1.0.3",
+  "main": "dist/index.js",
+  "author": "Stéphane CHAFFRE",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "module": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Erkomxtil/simple-modal.git"
   },
-  "keywords": [
-    "react",
-    "modal",
-    "component"
-  ],
-  "author": "Stéphane CHAFFRE",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Erkomxtil/simple-modal/issues"
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "babel-preset-react-app": "^10.0.1",
+    "@babel/preset-react": "^7.18.6"
   },
-  "homepage": "https://github.com/Erkomxtil/simple-modal#readme"
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "clean": "rm -rf dist coverage",
+    "clean:fix": "rm -rf node_modules coverage build dist docs package-lock.json"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

@@ -7,6 +7,7 @@ import "../modal.css"
  * @returns the class "active" on the modalWrapper to make it work
  */
 export default function Modal({ active, setActive, text }) {
+  
   return (
     <div className={`${active} modalWrapper`}>
       <p>
