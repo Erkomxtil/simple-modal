@@ -1,5 +1,5 @@
 {
-  "name": "modal-component-delastef-erko",
+  "name": "modal-delastef",
   "version": "1.0.0",
   "private": false,
   "description": "A simple modal for ReatJs",
@@ -7,8 +7,7 @@
   "keywords": [
     "react",
     "component",
-    "modal",
-    "npm"
+    "modal"
   ],
   "main": "dist/index.js",
   "module": "dist/index.js",
