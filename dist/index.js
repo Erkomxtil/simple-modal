@@ -6,8 +6,8 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "Modal", {
   enumerable: true,
   get: function get() {
-    return _components.default;
+    return _Modal.default;
   }
 });
-var _components = _interopRequireDefault(require("./components"));
+var _Modal = _interopRequireDefault(require("./components/Modal"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

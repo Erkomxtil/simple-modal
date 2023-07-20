@@ -3,11 +3,11 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = Modal;
+exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 require("./modal.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function Modal(_ref) {
+const Modal = _ref => {
   let {
     active,
     setActive,
@@ -18,4 +18,6 @@ function Modal(_ref) {
   }, /*#__PURE__*/_react.default.createElement("p", null, text, /*#__PURE__*/_react.default.createElement("span", {
     onClick: () => setActive("")
   }, "X")));
-}
+};
+var _default = Modal;
+exports.default = _default;
