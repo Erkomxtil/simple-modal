@@ -11,3 +11,6 @@ npm i modal-reactjs-erkomxtil
 yarn add modal-reactjs-erkomxtil
 
 for more information, take a look at the [documentation]().
+
+## Author:
+Stéphane CHAFFRE : [**GitHub**](https://github.com/Erkomxtil) - [**Portfolio**](https://delastef.netlify.app/)
