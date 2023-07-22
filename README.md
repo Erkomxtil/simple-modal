@@ -4,10 +4,10 @@ This library is a simple modal component
 
 ### Installation
 
-# if you use npm:
+if you use npm: <br>
 npm i modal-reactjs-erkomxtil
 
-# if you use yarn: 
+if you use yarn:<br> 
 yarn add modal-reactjs-erkomxtil
 
 for more information, take a look at the [documentation](https://erkomxtil.github.io/simple-modal/out/index.html).
